@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Aaarghnormal';
+    src: url('../fonts/Aaargh-webfont.eot');
+    src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/Aaargh-webfont.svg#../fonts/Aaarghnormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	margin: 0;
+}
+#upperBody{
+		background: #e7e7e7;
+		padding: 200px 0 100px;
+		margin-bottom: 60px;
+}
+#icodeIcon{
+	width: 150px;
+	position: fixed;
+	top: 20px;
+	margin-left: 20px;
+	padding-bottom: 50px;
+	background: #e7e7e7;
+}
+#introText{
+		font-family: Aaarghnormal;
+		color: #344;
+		font-size: 2.389rem;
+		text-align: center;
+}
+#sponsors{
+	border: 1px solid #344;
+	width: 900px;
+	margin: 0 auto 50px auto;
+	padding-bottom: 30px;
+}
+.logo{
+	display: inline;
+	margin: 30px;
+	padding: 0 20px;
+}
+/*rgb(0, 104, 91)*/
