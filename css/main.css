@@ -12,7 +12,7 @@ body{
 	margin: 0;
 }
 #upperBody{
-		background: #e7e7e7;
+		background: rgba(0, 104, 91, 0.1);
 		padding: 200px 0 100px;
 		margin-bottom: 60px;
 }
@@ -22,6 +22,12 @@ body{
 	top: 20px;
 	margin-left: 20px;
 	padding-bottom: 50px;
+}
+#aakritiIcon{
+	width: 120px;
+	margin-right: 20px;
+	margin-top: -190px;
+	float: right;
 }
 .infoText{
 	text-align: center;
@@ -54,11 +60,6 @@ body{
 	margin: 0 auto 50px auto;
 	padding-bottom: 30px;
 }
-.partnerlogo{
-	width: 200px;
-	margin: 0 auto 50px auto;
-	padding-bottom: 30px;
-}
 .logo{
 	display: inline;
 	margin: 30px;
@@ -82,34 +83,59 @@ body{
 	font-size: 20px;
 	text-align: center;
 	color: #344; 
-	margin: 50px auto;
+	margin: 20px auto ;
 	width: 980px;
-	line-height: 40px;
 }
 .quoteicon{
 	vertical-align: middle;
 	width: 120px;
 }
 #links{
-	width: 1000px;
-	margin: 0 auto 50px auto;
-}
-.linkform{
-	width: 300px;
-	border: 1px solid #e7e7e7;
-	margin-right: 20px;
+	width: 130px;
+	margin: 70px auto;
+	border-radius: 6px;
 }
 .linkfb{
 	width: 300px;
 	height: 300px;
 	border: 0 solid #ccc;
-	margin-right: 20px;
 }
-.linkpamphlet{
-	width: 350px;
-	height: 300px;
-	border: 0 solid #ccc;
+#links:hover{
+	transition: all 0.1s;
+	-wbkit-transition: all 0.1s;
+	-moz-transition: all 0.1s;
+	box-shadow: 2px 2px 3px rgba(0,0,0, 0.6);	
 }
+	#facebook-icon{
+		background: #3b5998;
+		text-indent: -999em;
+		width: 100px;
+		height: 110px;
+		border-radius: 5px;
+		border: 15px solid #3b5998;
+		position: relative;
+		overflow: hidden;
+		border-bottom: 0;
+		}
+	#facebook-icon::before{
+		border: 20px solid #eee;
+		content: "/20";
+		position: absolute;
+		width: 40px;
+		height: 90px;
+		bottom: -30px;
+		right: -37px;
+		border-radius: 25px;
+		}
+	#facebook-icon::after{
+		background: #eee;
+		content: "/20";
+		position: absolute;
+		width: 55px;
+		top: 50px;
+		height: 20px;
+		right: 5px;
+		}
 .linkform:hover{
 	box-shadow: 2px 2px 4px #ccc;
 	transition: all 0.1s;
@@ -129,7 +155,7 @@ body{
 .happyimage{
 	padding-left: 20px;
 }
-.textDecoration1{
+/*.textDecoration1{
 	color: #4CAF50;
 }
 .textDecoration2{
@@ -137,10 +163,11 @@ body{
 }
 .textDecoration3{
 	color: orange;
-}
+}*/
 .textDecoration4{
 	color: #4CAF50;
 	font-size: 30px;
+	line-height: 40px;
 }
 .winText{
 	text-align: center;
